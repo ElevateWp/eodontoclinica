@@ -12,9 +12,9 @@ import { DENTISTS, SERVICES, CLINIC_INFO } from '@/lib/clinic-data';
 import { createMetadata } from '@/lib/seo';
 
 export const metadata: Metadata = createMetadata({
-  title: 'Equipe Clínica | Our Doctor',
+  title: 'Equipe Clínica | Dra. Fernanda',
   description:
-    'Conheço Our Doctor, o profissional da Dental Studio em Manaus.',
+    'Conheça a Dra. Fernanda, da EODONTO Clínica Odontológica em Manaus.',
   pathname: '/dentists/',
 });
 
@@ -24,7 +24,7 @@ export default function DentistsPage() {
       {/* SECTION 1: Introduction */}
       <section className="py-16 md:py-24 border-b border-mist">
         <div className="max-w-site mx-auto px-6 md:px-12">
-          <Breadcrumbs items={[{ name: 'Our Doctor', path: '/dentists/' }]} />
+          <Breadcrumbs items={[{ name: 'Dra. Fernanda', path: '/dentists/' }]} />
 
           <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 mt-8">
             <div className="lg:col-span-8">
@@ -34,7 +34,7 @@ export default function DentistsPage() {
                 </span>
                 <WordRevealH1 text="Atendimento odontológico dedicado, ágil e humanizado." />
                 <div className="mt-8">
-                  <ScrubbedParagraph text="Our Doctor atende na Dental Studio, oferecendo cuidado odontológico acolhedor em Manaus." />
+                  <ScrubbedParagraph text="A Dra. Fernanda atende na EODONTO Clínica Odontológica, oferecendo cuidado odontológico acolhedor em Manaus." />
                 </div>
               </AnimateOnScroll>
             </div>
@@ -44,7 +44,7 @@ export default function DentistsPage() {
                 <div className="p-6 bg-paper border border-mist space-y-2 font-body text-13 text-forest-ink/80 shadow-sm">
                   <span className="font-medium text-forest block">Atendimento odontológico</span>
                   <p className="text-forest-ink/70">
-                    Atendimento realizado na Dental Studio, com atendimento em consultório e serviço domiciliar.
+                    Atendimento odontológico na EODONTO Clínica Odontológica.
                   </p>
                 </div>
               </AnimateOnScroll>
@@ -62,7 +62,7 @@ export default function DentistsPage() {
                 Perfil do Profissional
               </span>
               <h2 className="font-display text-33 md:text-41 text-forest-ink">
-                Our Doctor
+                Dra. Fernanda
               </h2>
             </div>
           </AnimateOnScroll>
@@ -219,7 +219,7 @@ export default function DentistsPage() {
                   “Implantes carga imediata pode trazer seu sorriso em 1 dia — unindo tecnologia, agilidade e o acolhimento que você merece.”
                 </span>
                 <span className="font-body text-13 text-forest block mt-2 font-medium">
-                  — Our Doctor, Responsável Técnico
+                  — EODONTO Clínica Odontológica
                 </span>
               </div>
             </div>

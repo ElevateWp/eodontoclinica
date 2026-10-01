@@ -67,7 +67,7 @@ export default function BookAppointmentPage() {
                     Prefere falar diretamente conosco agora? Clique abaixo para abrir o WhatsApp.
                   </p>
                   <a
-                    href="https://api.whatsapp.com/send?phone=5592985587841"
+                    href="https://api.whatsapp.com/send?phone=5592991487679"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="font-display text-17 text-forest font-semibold block hover:underline"
@@ -145,7 +145,7 @@ export default function BookAppointmentPage() {
                 <div className="space-y-3 font-body text-13 text-forest-ink/80">
                   <div>
                     <span className="text-forest-ink/60 block">WhatsApp:</span>
-                    <a href="https://api.whatsapp.com/send?phone=5592985587841" target="_blank" rel="noopener noreferrer" className="font-medium text-forest hover:underline">
+                    <a href="https://api.whatsapp.com/send?phone=5592991487679" target="_blank" rel="noopener noreferrer" className="font-medium text-forest hover:underline">
                       {CLINIC_INFO.contact.whatsapp}
                     </a>
                   </div>
@@ -179,14 +179,14 @@ export default function BookAppointmentPage() {
             <AnimateOnScroll animation="fade-up" delay={0.3}>
               <div className="p-8 bg-paper border border-mist h-full shadow-sm">
                 <span className="font-body text-13 text-forest block mb-2 font-medium uppercase tracking-wider">Localização</span>
-                <h3 className="font-display text-21 text-forest-ink mb-4">Oral Integralle em Manaus</h3>
+                <h3 className="font-display text-21 text-forest-ink mb-4">EODONTO em Manaus</h3>
                 <address className="not-italic font-body text-13 text-forest-ink/80 leading-relaxed mb-3">
                   {CLINIC_INFO.primaryLocation.street} - {CLINIC_INFO.primaryLocation.suite}
                   <br />
                   {CLINIC_INFO.primaryLocation.city} - {CLINIC_INFO.primaryLocation.state}, {CLINIC_INFO.primaryLocation.postalCode}, Brasil
                 </address>
                 <p className="font-body text-13 text-forest-ink/60">
-                  Plus Code: WX3C+8X Chapada, Manaus - Amazonas.
+                  Plus Code: VXXF+CR Chapada, Manaus - Amazonas.
                 </p>
               </div>
             </AnimateOnScroll>

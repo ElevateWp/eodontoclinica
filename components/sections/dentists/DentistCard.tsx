@@ -26,7 +26,7 @@ export default function DentistCard({ dentist, offsetY = false }: DentistCardPro
           {/* Primary Clinical Portrait */}
           <Image
             src={dentist.image}
-            alt={`Clinical portrait of ${dentist.name}, ${dentist.title}`}
+            alt="Imagem ilustrativa de atendimento odontológico; não representa a Dra. Fernanda"
             fill
             sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 50vw"
             className={`object-cover object-top transition-all duration-500 ease-nova-ease ${

@@ -111,9 +111,9 @@ export default function PagePreloader() {
   return (
     <div
       ref={containerRef}
-      className="fixed inset-0 z-[99999] flex items-center justify-center bg-[#242424] text-paper overflow-hidden select-none"
+      className="fixed inset-0 z-[99999] flex items-center justify-center bg-[#30200F] text-paper overflow-hidden select-none"
       style={{ willChange: 'transform' }}
-      aria-label="Loading Oral Integralle"
+      aria-label="Loading EODONTO"
     >
       {/* Subtle Background Radial Aura */}
       <div className="absolute inset-0 bg-[radial-gradient(circle_at_center,rgba(181,154,106,0.10)_0%,transparent_70%)] pointer-events-none" />
@@ -125,11 +125,11 @@ export default function PagePreloader() {
         {/* Animated 3D Logo */}
         <div
           ref={logoRef}
-          className="relative w-20 h-20 sm:w-24 sm:h-24 bg-paper rounded-2xl shadow-2xl p-2.5 flex items-center justify-center mb-6 border border-[#E8C51A]/40"
+          className="relative w-20 h-20 sm:w-24 sm:h-24 bg-paper rounded-2xl shadow-2xl p-2.5 flex items-center justify-center mb-6 border border-[#F5C842]/40"
         >
           <Image
             src="/images/logo.png"
-            alt="Clínica Odontológica Oral Integralle"
+            alt="Clínica Odontológica EODONTO"
             width={80}
             height={80}
             priority

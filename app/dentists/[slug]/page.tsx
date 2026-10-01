@@ -67,7 +67,7 @@ export default function SingleDentistPage({ params }: DentistProfileProps) {
         <div className="max-w-site mx-auto px-6 md:px-12">
           <Breadcrumbs
             items={[
-              { name: 'Our Doctor', path: '/dentists/' },
+              { name: 'Dra. Fernanda', path: '/dentists/' },
               { name: dentist.name, path: `/dentists/${dentist.slug}/` },
             ]}
           />
@@ -79,7 +79,7 @@ export default function SingleDentistPage({ params }: DentistProfileProps) {
                 <div className="relative aspect-[4/5] bg-mist overflow-hidden border border-mist shadow-sm">
                   <Image
                     src={dentist.image}
-                    alt={`Retrato de ${dentist.name}`}
+                    alt="Imagem ilustrativa de atendimento odontológico; não representa a Dra. Fernanda"
                     fill
                     priority
                     sizes="(max-width: 1024px) 100vw, 40vw"

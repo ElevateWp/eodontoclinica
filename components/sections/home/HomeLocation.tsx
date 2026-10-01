@@ -8,7 +8,7 @@ import AnimateOnScroll from '@/components/motion/AnimateOnScroll';
 
 export default function HomeLocation() {
   const todayDayName = useMemo(() => {
-    const days = ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'];
+    const days = ['Domingo', 'Segunda-feira', 'Terça-feira', 'Quarta-feira', 'Quinta-feira', 'Sexta-feira', 'Sábado'];
     return days[new Date().getDay()];
   }, []);
 
@@ -35,7 +35,7 @@ export default function HomeLocation() {
                   {CLINIC_INFO.name}
                 </h3>
                 <address className="not-italic font-body text-15 md:text-17 text-forest-ink/90 leading-relaxed mb-4">
-                  {CLINIC_INFO.primaryLocation.street}
+                  {CLINIC_INFO.primaryLocation.street}, {CLINIC_INFO.primaryLocation.suite}
                   <br />
                   {CLINIC_INFO.primaryLocation.city} - {CLINIC_INFO.primaryLocation.state},{' '}
                   {CLINIC_INFO.primaryLocation.postalCode}, {CLINIC_INFO.primaryLocation.country}
@@ -105,14 +105,14 @@ export default function HomeLocation() {
             <AnimateOnScroll animation="fade-left" duration={0.85}>
               <div className="relative aspect-[16/10] bg-mist overflow-hidden border border-mist shadow-sm">
                 <Image
-                  src="/images/clinic-sign-16.jpg"
-                  alt="Clínica Odontológica Oral Integralle - Chapada, Manaus"
+                  src="https://images.unsplash.com/photo-1629909613654-28e377c37b09?auto=format&fit=crop&w=1400&q=85"
+                  alt="Clínica Odontológica EODONTO - Chapada, Manaus"
                   fill
                   sizes="(max-width: 1024px) 100vw, 50vw"
                   className="object-cover"
                 />
                 <div className="absolute bottom-3 left-3 bg-paper/95 backdrop-blur-sm text-forest-ink font-body text-13 px-3 py-1 font-medium border border-mist/50">
-                  Oral Integralle • Manaus
+                  EODONTO • Manaus
                 </div>
               </div>
             </AnimateOnScroll>
@@ -127,7 +127,7 @@ export default function HomeLocation() {
                     Clínica odontológica em Chapada
                   </h3>
                   <p className="font-body text-13 text-forest-ink/80 mb-3 leading-relaxed">
-                    Clínica Odontológica Oral Integralle, na região de Chapada, em Manaus, Amazonas.
+                    Clínica Odontológica EODONTO, na região de Chapada, em Manaus, Amazonas.
                   </p>
                   <p className="font-body text-13 text-forest-ink/70 mb-3 leading-relaxed">
                     Ambiente LGBTQ+ friendly · Identifica-se como empresa de propriedade feminina.

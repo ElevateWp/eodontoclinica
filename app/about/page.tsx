@@ -248,7 +248,7 @@ export default function AboutPage() {
                   <MediaParallax speed={0.08} className="w-full h-full">
                     <Image
                       src="https://images.unsplash.com/photo-1622253692010-333f2da6031d?auto=format&fit=crop&q=80&w=1000"
-                      alt="Sala de atendimento odontológico da Clínica Oral Integralle"
+                      alt="Sala de atendimento odontológico da Clínica EODONTO"
                       fill
                       sizes="(max-width: 1024px) 100vw, 50vw"
                       className="object-cover"
@@ -311,7 +311,7 @@ export default function AboutPage() {
               <div className="relative aspect-[4/3] bg-mist overflow-hidden border border-mist shadow-sm">
                 <Image
                   src="https://images.unsplash.com/photo-1594824813583-e18e3848b814?auto=format&fit=crop&q=80&w=800"
-                  alt="Entrada da Clínica Oral Integralle"
+                  alt="Entrada da Clínica EODONTO"
                   fill
                   sizes="(max-width: 768px) 100vw, 33vw"
                   className="object-cover"

@@ -38,8 +38,8 @@ export default function HomeBeforeAfter() {
 
           <AnimateOnScroll animation="fade-left" duration={0.85} className="lg:col-span-7">
             <BeforeAfterSlider
-              beforeImage="https://images.unsplash.com/photo-1588776814546-1ffcf47267a5?auto=format&fit=crop&q=80&w=1200"
-              afterImage="https://images.unsplash.com/photo-1606811841689-23dfddce3e95?auto=format&fit=crop&q=80&w=1200"
+              beforeImage="https://images.unsplash.com/photo-1609840114035-3c981b782dfe?auto=format&fit=crop&q=80&w=1200"
+              afterImage="https://images.unsplash.com/photo-1657470179447-0f5aa16daa91?auto=format&fit=crop&q=80&w=1200"
               beforeLabel="Pre-operative: Fractured & Discolored Enamel"
               afterLabel="Post-operative: Micro-Layered Porcelain Veneers"
               clinicalNote="Caso: Reabilitação estética e facetas cerâmicas pela equipe odontológica."

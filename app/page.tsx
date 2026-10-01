@@ -17,9 +17,9 @@ import { SERVICES } from '@/lib/clinic-data';
 import { createMetadata } from '@/lib/seo';
 
 export const metadata: Metadata = createMetadata({
-  title: 'Clínica Odontológica Oral Integralle | Manaus - AM',
+  title: 'Clínica Odontológica EODONTO | Manaus - AM',
   description:
-    'Clínica Odontológica Oral Integralle (4.6 ★, 89 avaliações no Google Maps), em Chapada, Manaus - AM.',
+    'Clínica Odontológica EODONTO (4.6 ★, 10 avaliações no Google Maps), em Chapada, Manaus - AM.',
   pathname: '/',
 });
 

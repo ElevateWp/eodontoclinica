@@ -14,7 +14,7 @@ export default function Footer() {
               <div className="w-14 h-14 sm:w-16 sm:h-16 bg-paper rounded-xl p-2 flex items-center justify-center flex-shrink-0 shadow-md">
                 <Image
                   src="/images/logo.png"
-                  alt="Clínica Odontológica Oral Integralle"
+                  alt="Clínica Odontológica EODONTO"
                   width={60}
                   height={60}
                   className="object-contain w-full h-full"
@@ -22,7 +22,7 @@ export default function Footer() {
               </div>
               <div className="flex flex-col">
                 <span className="font-display text-24 md:text-30 font-medium leading-tight">
-                  Oral Integralle
+                  EODONTO
                 </span>
                 <span className="font-body text-13 text-paper/70 font-medium">
                   Clínica odontológica • Chapada, Manaus
@@ -30,12 +30,12 @@ export default function Footer() {
               </div>
             </div>
             <p className="font-body text-16 text-paper/80 leading-relaxed max-w-xl">
-              Clínica Odontológica Oral Integralle, em Chapada, Manaus, Amazonas.
+              Clínica Odontológica EODONTO, em Chapada, Manaus, Amazonas.
             </p>
             <div className="mt-6 flex flex-wrap gap-4 text-13 text-paper/60">
               <span>Manaus, Amazonas</span>
               <span>•</span>
-              <span>Avaliação 4.6 · 89 avaliações no Google Maps</span>
+              <span>Avaliação 4.6 · 10 avaliações no Google Maps</span>
             </div>
           </div>
 
@@ -49,7 +49,7 @@ export default function Footer() {
               </p>
               <div className="flex flex-wrap items-center gap-4">
                 <a
-                  href={`https://api.whatsapp.com/send?phone=5592985587841`}
+                  href={`https://api.whatsapp.com/send?phone=5592991487679`}
                   target="_blank"
                   rel="noopener noreferrer"
                   className="font-body text-15 font-semibold text-lime hover:underline"
@@ -155,7 +155,7 @@ export default function Footer() {
               <div>
                 <span className="text-paper/50 block text-13">Telefone & WhatsApp:</span>
                 <a
-                  href={`https://api.whatsapp.com/send?phone=5592985587841`}
+                  href={`https://api.whatsapp.com/send?phone=5592991487679`}
                   target="_blank"
                   rel="noopener noreferrer"
                   className="hover:text-lime transition-colors font-medium"
@@ -187,9 +187,9 @@ export default function Footer() {
           <div className="flex items-center gap-6">
             <span>Chapada, Manaus - AM</span>
             <span>•</span>
-            <span>Oral Integralle</span>
+            <span>EODONTO</span>
             <span>•</span>
-            <span>Avaliação 4.6 ★ · 89 avaliações no Google Maps</span>
+            <span>Avaliação 4.6 ★ · 10 avaliações no Google Maps</span>
           </div>
         </div>
       </div>

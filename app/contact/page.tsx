@@ -9,9 +9,9 @@ import AnimateOnScroll from '@/components/motion/AnimateOnScroll';
 import { createMetadata } from '@/lib/seo';
 
 export const metadata: Metadata = createMetadata({
-  title: 'Contato & Localização | Oral Integralle - Manaus',
+  title: 'Contato & Localização | EODONTO - Manaus',
   description:
-    'Entre em contato com a Clínica Odontológica Oral Integralle em Manaus, Amazonas. Telefone: +55 92 98558-7841.',
+    'Entre em contato com a Clínica Odontológica EODONTO em Manaus, Amazonas. Telefone: +55 92 99148-7679.',
   pathname: '/contact/',
 });
 
@@ -33,7 +33,7 @@ export default function ContactPage() {
                 </span>
                 <WordRevealH1 text="Fale com nossa equipe odontológica." />
                 <p className="font-body text-17 md:text-21 text-forest-ink/90 leading-relaxed mt-6 max-w-2xl">
-                  Entre em contato com a Clínica Odontológica Oral Integralle em Manaus, Amazonas.
+                  Entre em contato com a Clínica Odontológica EODONTO em Manaus, Amazonas.
                 </p>
               </AnimateOnScroll>
             </div>
@@ -62,7 +62,7 @@ export default function ContactPage() {
                       <div>
                         <span className="font-body text-13 text-forest font-semibold block">WhatsApp Direto</span>
                         <a
-                          href="https://api.whatsapp.com/send?phone=5592985587841"
+                          href="https://api.whatsapp.com/send?phone=5592991487679"
                           target="_blank"
                           rel="noopener noreferrer"
                           className="font-display text-21 text-forest font-bold hover:underline"
@@ -101,7 +101,7 @@ export default function ContactPage() {
                     {CLINIC_INFO.name}
                   </h3>
                   <address className="not-italic font-body text-15 text-forest-ink/90 leading-relaxed mb-4">
-                    {CLINIC_INFO.primaryLocation.street}
+                    {CLINIC_INFO.primaryLocation.street}, {CLINIC_INFO.primaryLocation.suite}
                     <br />
                     {CLINIC_INFO.primaryLocation.city} - {CLINIC_INFO.primaryLocation.state}, {CLINIC_INFO.primaryLocation.postalCode}, {CLINIC_INFO.primaryLocation.country}
                   </address>
@@ -138,13 +138,13 @@ export default function ContactPage() {
                       Localização no Google Maps & Plus Code
                     </span>
                     <h3 className="font-display text-26 text-paper mb-2">
-                      Oral Integralle
+                      EODONTO
                     </h3>
                     <p className="font-body text-13 text-paper/80 leading-relaxed">
                       {CLINIC_INFO.primaryLocation.directions}
                     </p>
                     <div className="mt-3 inline-flex items-center gap-2 bg-paper/10 px-3 py-1 text-lime font-body text-13">
-                      <span>★ 4.6 Avaliação (89 avaliações no Google)</span>
+                      <span>★ 4.6 Avaliação (10 avaliações no Google)</span>
                     </div>
                   </div>
 
@@ -159,7 +159,7 @@ export default function ContactPage() {
                       Abrir no Google Maps
                     </Button>
                     <a
-                      href="https://api.whatsapp.com/send?phone=5592985587841"
+                      href="https://api.whatsapp.com/send?phone=5592991487679"
                       target="_blank"
                       rel="noopener noreferrer"
                       className="font-body text-13 text-lime hover:underline font-semibold"

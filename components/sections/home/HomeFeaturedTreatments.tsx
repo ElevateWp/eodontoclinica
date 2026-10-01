@@ -8,10 +8,10 @@ export default function HomeFeaturedTreatments() {
     <section className="relative z-20 w-full bg-paper py-20 md:py-32 border-t border-mist overflow-hidden">
       <div className="max-w-site mx-auto px-6 md:px-12">
         <AnimateOnScroll animation="fade-up" duration={0.8} className="mb-16">
-          <span className="font-body text-13 text-[#252525] block mb-2 font-medium uppercase tracking-wider">
+          <span className="font-body text-13 text-[#542F0C] block mb-2 font-medium uppercase tracking-wider">
             Casos em Destaque
           </span>
-          <h2 className="font-display text-33 md:text-41 text-[#252525]">
+          <h2 className="font-display text-33 md:text-41 text-[#542F0C]">
             Tratamentos e reconstruções clínicas
           </h2>
         </AnimateOnScroll>
@@ -20,18 +20,18 @@ export default function HomeFeaturedTreatments() {
           {/* Featured Case 1: Guided Dental Implantology & Immediate Load */}
           <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
             <AnimateOnScroll animation="fade-right" duration={0.9} className="lg:col-span-6 order-2 lg:order-1">
-              <span className="font-body text-13 text-[#252525] uppercase tracking-wider block mb-2 font-medium">
-                Our Doctor • Implantes & Carga Imediata
+              <span className="font-body text-13 text-[#542F0C] uppercase tracking-wider block mb-2 font-medium">
+                Dra. Fernanda • Implantes & Carga Imediata
               </span>
-              <h3 className="font-display text-26 md:text-33 text-[#252525] mb-4">
+              <h3 className="font-display text-26 md:text-33 text-[#542F0C] mb-4">
                 Implantes Carga Imediata: Seu Sorriso Recuperado em 1 Dia
               </h3>
-              <p className="font-body text-15 md:text-17 text-[#252525]/80 leading-relaxed mb-6">
+              <p className="font-body text-15 md:text-17 text-[#542F0C]/80 leading-relaxed mb-6">
                 Com a técnica de carga imediata, a equipe odontológica restabelece dentes perdidos e a segurança do sorriso em apenas 1 dia, proporcionando agilidade, estética e recuperação rápida.
               </p>
-              <div className="p-4 bg-[#F8F7F2] border-l-4 border-[#252525] mb-6 rounded-sm">
-                <span className="font-body text-13 text-[#252525]/80">
-                  <strong className="text-[#252525] font-semibold">Destaque:</strong> Recuperação rápida da função mastigatória e autoestima sem esperas prolongadas.
+              <div className="p-4 bg-[#FAF7F0] border-l-4 border-[#542F0C] mb-6 rounded-sm">
+                <span className="font-body text-13 text-[#542F0C]/80">
+                  <strong className="text-[#542F0C] font-semibold">Destaque:</strong> Recuperação rápida da função mastigatória e autoestima sem esperas prolongadas.
                 </span>
               </div>
               <Button href="/dental-implants/" variant="ghost" size="md">
@@ -42,8 +42,8 @@ export default function HomeFeaturedTreatments() {
             <AnimateOnScroll animation="fade-left" duration={0.9} className="lg:col-span-6 order-1 lg:order-2">
               <div className="relative aspect-[4/3] bg-mist overflow-hidden border border-mist shadow-sm">
                 <Image
-                  src="/images/clinic-team-11.jpg"
-                  alt="Our Doctor"
+                  src="https://images.unsplash.com/photo-1609840114035-3c981b782dfe?auto=format&fit=crop&w=1400&q=85"
+                  alt="Imagem ilustrativa de atendimento odontológico"
                   fill
                   sizes="(max-width: 1024px) 100vw, 50vw"
                   className="object-cover object-top"
@@ -57,8 +57,8 @@ export default function HomeFeaturedTreatments() {
             <AnimateOnScroll animation="fade-right" duration={0.9} className="lg:col-span-6">
               <div className="relative aspect-[4/3] bg-mist overflow-hidden border border-mist shadow-sm">
                 <Image
-                  src="/images/clinic-brand-wall-9.jpg"
-                  alt="Identidade visual Oral Integralle"
+                  src="https://images.unsplash.com/photo-1629909613654-28e377c37b09?auto=format&fit=crop&w=1400&q=85"
+                  alt="Identidade visual EODONTO"
                   fill
                   sizes="(max-width: 1024px) 100vw, 50vw"
                   className="object-cover"
@@ -67,18 +67,18 @@ export default function HomeFeaturedTreatments() {
             </AnimateOnScroll>
 
             <AnimateOnScroll animation="fade-left" duration={0.9} className="lg:col-span-6">
-              <span className="font-body text-13 text-[#252525] uppercase tracking-wider block mb-2 font-medium">
-                Our Doctor • Ortodontia & Especialidades
+              <span className="font-body text-13 text-[#542F0C] uppercase tracking-wider block mb-2 font-medium">
+                Dra. Fernanda • Ortodontia & Especialidades
               </span>
-              <h3 className="font-display text-26 md:text-33 text-[#252525] mb-4">
+              <h3 className="font-display text-26 md:text-33 text-[#542F0C] mb-4">
                 Aparelhos Ortodônticos e Cuidado Minucioso
               </h3>
-              <p className="font-body text-15 md:text-17 text-[#252525]/80 leading-relaxed mb-6">
+              <p className="font-body text-15 md:text-17 text-[#542F0C]/80 leading-relaxed mb-6">
                 Planejamento ortodôntico de precisão e tratamentos restauradores conduzidos com extrema atenção e competência pela equipe odontológica, garantindo alinhamento e saúde bucal completa.
               </p>
-              <div className="p-4 bg-[#F8F7F2] border-l-4 border-[#252525] mb-6 rounded-sm">
-                <span className="font-body text-13 text-[#252525]/80">
-                  <strong className="text-[#252525] font-semibold">Resultado:</strong> Harmonia do sorriso, mordida equilibrada e atendimento acolhedor.
+              <div className="p-4 bg-[#FAF7F0] border-l-4 border-[#542F0C] mb-6 rounded-sm">
+                <span className="font-body text-13 text-[#542F0C]/80">
+                  <strong className="text-[#542F0C] font-semibold">Resultado:</strong> Harmonia do sorriso, mordida equilibrada e atendimento acolhedor.
                 </span>
               </div>
               <Button href="/braces/" variant="ghost" size="md">

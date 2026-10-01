@@ -34,7 +34,7 @@ export default function HomeWhyUs() {
                 Clinical Methodology
               </span>
               <h2 className="font-display text-26 sm:text-33 md:text-41 text-forest-ink mb-8 md:mb-10 leading-tight">
-                Por que escolher a Clínica Oral Integralle
+                Por que escolher a Clínica EODONTO
               </h2>
 
               <div className="divide-y divide-mist">
@@ -65,21 +65,21 @@ export default function HomeWhyUs() {
                 <div className="col-span-2 relative aspect-[16/10] bg-mist overflow-hidden border border-mist shadow-sm">
                   <MediaParallax speed={0.06} className="w-full h-full">
                     <Image
-                      src="/images/clinic-treatment-room-8.jpg"
-                      alt="Sala de tratamento odontológico da Clínica Oral Integralle"
+                      src="https://images.unsplash.com/photo-1657470179447-0f5aa16daa91?auto=format&fit=crop&w=1400&q=85"
+                      alt="Sala de tratamento odontológico da Clínica EODONTO"
                       fill
                       sizes="(max-width: 1024px) 100vw, 50vw"
                       className="object-cover"
                     />
                   </MediaParallax>
-                  <div className="absolute bottom-3 left-3 bg-[#252525]/90 backdrop-blur-sm text-paper font-body text-12 px-3 py-1 font-medium">
+                  <div className="absolute bottom-3 left-3 bg-[#542F0C]/90 backdrop-blur-sm text-paper font-body text-12 px-3 py-1 font-medium">
                     Sala de Tratamento Odontológico
                   </div>
                 </div>
                 {/* Second interior image */}
                 <div className="col-span-2 sm:col-span-1 relative aspect-square bg-mist overflow-hidden border border-mist shadow-sm">
                   <Image
-                    src="/images/clinic-plaque-detail.jpg"
+                    src="https://images.unsplash.com/photo-1609840114035-3c981b782dfe?auto=format&fit=crop&w=1000&q=85"
                     alt="Detalhe da sinalização da clínica"
                     fill
                     sizes="(max-width: 640px) 100vw, 25vw"
@@ -87,16 +87,16 @@ export default function HomeWhyUs() {
                   />
                 </div>
                 {/* Doctor portrait */}
-                <div className="col-span-2 sm:col-span-1 relative aspect-square bg-[#F8F7F2] overflow-hidden border border-mist shadow-sm">
+                <div className="col-span-2 sm:col-span-1 relative aspect-square bg-[#FAF7F0] overflow-hidden border border-mist shadow-sm">
                   <Image
-                    src="/images/clinic-team-11.jpg"
-                    alt="Our Doctor"
+                    src="https://images.unsplash.com/photo-1606811971618-4486d14f3f99?auto=format&fit=crop&w=1000&q=85"
+                    alt="Imagem ilustrativa de atendimento odontológico"
                     fill
                     sizes="(max-width: 640px) 100vw, 25vw"
                     className="object-cover object-top"
                   />
-                  <div className="absolute bottom-0 left-0 right-0 bg-[#252525]/80 text-paper font-body text-12 px-3 py-2 text-center">
-                    Our Doctor
+                  <div className="absolute bottom-0 left-0 right-0 bg-[#542F0C]/80 text-paper font-body text-12 px-3 py-2 text-center">
+                    Dra. Fernanda
                   </div>
                 </div>
               </div>

@@ -15,7 +15,7 @@ export default function HomeFinalCTA() {
 
         <AnimateOnScroll animation="fade-up" duration={0.85} delay={0.15}>
           <p className="font-body text-17 md:text-21 text-paper/80 leading-relaxed max-w-xl mb-10 mx-auto">
-            Entre em contato com a Clínica Odontológica Oral Integralle, em Chapada, Manaus, Amazonas.
+            Entre em contato com a Clínica Odontológica EODONTO, em Chapada, Manaus, Amazonas.
           </p>
         </AnimateOnScroll>
 
@@ -25,7 +25,7 @@ export default function HomeFinalCTA() {
               Agendar Avaliação Online
             </Button>
             <Button
-              href={`https://api.whatsapp.com/send?phone=5592985587841`}
+              href={`https://api.whatsapp.com/send?phone=5592991487679`}
               variant="ghost"
               size="lg"
               className="text-paper border-paper/30 hover:border-paper hover:bg-paper/10"

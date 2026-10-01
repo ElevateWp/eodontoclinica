@@ -111,8 +111,8 @@ export default function HomeHero() {
       className="relative min-h-[85vh] lg:min-h-[90vh] flex items-center bg-paper overflow-hidden py-12 sm:py-16 md:py-24"
     >
       <Image
-        src="/images/clinic-treatment-room-8.jpg"
-        alt="Sala de atendimento da Clínica Oral Integralle"
+        src="https://images.unsplash.com/photo-1629909615184-74f495363b67?auto=format&fit=crop&w=2200&q=85"
+        alt="Sala de atendimento da Clínica EODONTO"
         fill
         priority
         sizes="100vw"
@@ -129,15 +129,15 @@ export default function HomeHero() {
           <div className="lg:col-span-8 flex flex-col justify-center">
             {/* Semantic Single H1 */}
             <div className="flex items-center gap-3 mb-4 md:mb-5">
-              <span aria-hidden="true" className="h-px w-8 bg-[#D4AF0A]" />
-              <span className="font-body text-[11px] text-[#737373] uppercase tracking-[0.14em]">
+              <span aria-hidden="true" className="h-px w-8 bg-[#D99A00]" />
+              <span className="font-body text-[11px] text-[#806344] uppercase tracking-[0.14em]">
                 Your smile. Our priority.
               </span>
             </div>
             <h1
               ref={h1Ref}
               aria-label={headline}
-              className="font-display text-[#252525] text-33 sm:text-41 md:text-52 lg:text-65 xl:text-81 leading-[1.05] tracking-[-0.03em] font-normal mb-6 md:mb-8 max-w-4xl"
+              className="font-display text-[#542F0C] text-33 sm:text-41 md:text-52 lg:text-65 xl:text-81 leading-[1.05] tracking-[-0.03em] font-normal mb-6 md:mb-8 max-w-4xl"
             >
               {headlineWords.map((word, idx) => (
                 <React.Fragment key={idx}>
@@ -146,7 +146,7 @@ export default function HomeHero() {
                       ref={(el) => {
                         if (el) wordsRef.current[idx] = el;
                       }}
-                      className={`inline-block will-change-transform ${['shaped', 'by', 'clinical'].includes(word) ? 'text-[#D4AF0A]' : ''}`}
+                      className={`inline-block will-change-transform ${['shaped', 'by', 'clinical'].includes(word) ? 'text-[#D99A00]' : ''}`}
                     >
                       {word}
                     </span>
@@ -162,7 +162,7 @@ export default function HomeHero() {
               ref={paraRef}
               className="font-body text-15 sm:text-17 md:text-21 text-forest-ink/90 leading-relaxed mb-8 md:mb-10 max-w-2xl"
             >
-              A Clínica Odontológica Oral Integralle oferece atendimento odontológico em Chapada, Manaus.
+              A Clínica Odontológica EODONTO oferece atendimento odontológico em Chapada, Manaus.
             </p>
 
             <div
@@ -173,7 +173,7 @@ export default function HomeHero() {
                 Agendar Consulta
               </Button>
               <Button
-                href={`https://api.whatsapp.com/send?phone=5592985587841`}
+                href={`https://api.whatsapp.com/send?phone=5592991487679`}
                 variant="ghost"
                 size="lg"
                 className="w-full sm:w-auto font-medium"
@@ -184,13 +184,13 @@ export default function HomeHero() {
 
             <div
               ref={locationRef}
-              className="font-body text-13 text-[#252525]/70 flex flex-wrap items-center gap-2"
+              className="font-body text-13 text-[#542F0C]/70 flex flex-wrap items-center gap-2"
             >
-              <span className="font-medium text-[#252525]">Chapada, Manaus</span>
+              <span className="font-medium text-[#542F0C]">Chapada, Manaus</span>
               <span className="hidden sm:inline">•</span>
               <span>{CLINIC_INFO.primaryLocation.street}, {CLINIC_INFO.primaryLocation.suite}</span>
               <span className="hidden sm:inline">•</span>
-              <span className="text-[#252525] font-semibold">★ 4.6 · 89 avaliações</span>
+              <span className="text-[#542F0C] font-semibold">★ 4.6 · 10 avaliações</span>
             </div>
           </div>
 
@@ -199,16 +199,16 @@ export default function HomeHero() {
             ref={infoRef}
             className="lg:col-span-4 lg:pl-4 flex flex-col justify-center"
           >
-            <div className="p-6 sm:p-8 bg-[#F8F7F2] border border-[#E6E1D2] shadow-sm flex flex-col space-y-4">
-              <span className="font-body text-13 text-[#252525] uppercase tracking-wider font-semibold">
+            <div className="p-6 sm:p-8 bg-[#FAF7F0] border border-[#E9DCC2] shadow-sm flex flex-col space-y-4">
+              <span className="font-body text-13 text-[#542F0C] uppercase tracking-wider font-semibold">
                 Destaques Clínicos
               </span>
-              <p className="font-body text-13 sm:text-15 text-[#252525]/90 leading-relaxed">
-                <strong className="text-[#252525] font-semibold">&ldquo;Clínica Odontológica Oral Integralle&rdquo;</strong> &mdash; Clínica odontológica em Chapada, Manaus, Amazonas.
+              <p className="font-body text-13 sm:text-15 text-[#542F0C]/90 leading-relaxed">
+                <strong className="text-[#542F0C] font-semibold">&ldquo;Clínica Odontológica EODONTO&rdquo;</strong> &mdash; Clínica odontológica em Chapada, Manaus, Amazonas.
               </p>
-              <div className="pt-3 border-t border-[#E6E1D2] flex items-center justify-between text-13 font-body text-[#252525]/70">
+              <div className="pt-3 border-t border-[#E9DCC2] flex items-center justify-between text-13 font-body text-[#542F0C]/70">
                 <span>Manaus - AM</span>
-                <span className="text-[#252525] font-semibold">Avaliação 4.6 ★ · 89 avaliações</span>
+                <span className="text-[#542F0C] font-semibold">Avaliação 4.6 ★ · 10 avaliações</span>
               </div>
             </div>
           </div>
