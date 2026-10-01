@@ -142,7 +142,7 @@ export default function PagePreloader() {
           ref={titleRef}
           className="font-display text-22 sm:text-30 md:text-36 font-medium text-paper uppercase tracking-[0.08em] leading-tight mb-3 text-shadow-sm"
         >
-          ORAL INTEGRALLE
+          EODONTO
         </h1>
 
         {/* Delicate Golden-Lime Divider Line */}
