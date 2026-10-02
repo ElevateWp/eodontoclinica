@@ -42,8 +42,8 @@ export default function HomeFeaturedTreatments() {
             <AnimateOnScroll animation="fade-left" duration={0.9} className="lg:col-span-6 order-1 lg:order-2">
               <div className="relative aspect-[4/3] bg-mist overflow-hidden border border-mist shadow-sm">
                 <Image
-                  src="https://images.unsplash.com/photo-1609840114035-3c981b782dfe?auto=format&fit=crop&w=1400&q=85"
-                  alt="Imagem ilustrativa de atendimento odontológico"
+                  src="/images/dra-fernanda.png"
+                  alt="Dra. Fernanda"
                   fill
                   sizes="(max-width: 1024px) 100vw, 50vw"
                   className="object-cover object-top"
@@ -57,8 +57,8 @@ export default function HomeFeaturedTreatments() {
             <AnimateOnScroll animation="fade-right" duration={0.9} className="lg:col-span-6">
               <div className="relative aspect-[4/3] bg-mist overflow-hidden border border-mist shadow-sm">
                 <Image
-                  src="https://images.unsplash.com/photo-1629909613654-28e377c37b09?auto=format&fit=crop&w=1400&q=85"
-                  alt="Identidade visual EODONTO"
+                  src="/images/dra-fernanda.png"
+                  alt="Dra. Fernanda"
                   fill
                   sizes="(max-width: 1024px) 100vw, 50vw"
                   className="object-cover"

@@ -89,7 +89,7 @@ export default function HomeWhyUs() {
                 {/* Doctor portrait */}
                 <div className="col-span-2 sm:col-span-1 relative aspect-square bg-[#FAF7F0] overflow-hidden border border-mist shadow-sm">
                   <Image
-                    src="https://images.unsplash.com/photo-1606811971618-4486d14f3f99?auto=format&fit=crop&w=1000&q=85"
+                    src="/images/dra-fernanda.png"
                     alt="Imagem ilustrativa de atendimento odontológico"
                     fill
                     sizes="(max-width: 640px) 100vw, 25vw"

@@ -128,8 +128,8 @@ export const DENTISTS: DentistProfile[] = [
     education: ["Informações profissionais serão adicionadas em breve."],
     memberships: [],
     specialties: ["Atendimento odontológico"],
-    image: "https://images.unsplash.com/photo-1657470179447-0f5aa16daa91?auto=format&fit=crop&w=1200&q=85",
-    warmImage: "https://images.unsplash.com/photo-1657470179447-0f5aa16daa91?auto=format&fit=crop&w=1200&q=85",
+    image: "/images/dra-fernanda.png",
+    warmImage: "/images/dra-fernanda.png",
   },
 ];
 

@@ -22,7 +22,7 @@ export default function HomeGallery() {
           <AnimateOnScroll animation="fade-right" duration={0.85} className="md:col-span-5 min-h-[380px] md:min-h-[440px] relative bg-[#FAF7F0] overflow-hidden border border-[#E9DCC2] shadow-sm">
             <MediaParallax speed={0.06} className="w-full h-full">
               <Image
-                src="https://images.unsplash.com/photo-1657470179447-0f5aa16daa91?auto=format&fit=crop&w=1400&q=85"
+                src="/images/dra-fernanda.png"
                 alt="Imagem ilustrativa de atendimento odontológico"
                 fill
                 sizes="(max-width: 768px) 100vw, 40vw"
